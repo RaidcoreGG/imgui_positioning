@@ -11,6 +11,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
+#include <windows.h>
 
 #include <imgui/imgui.h>
 #include <imgui/imgui_internal.h>
