@@ -5,6 +5,8 @@ The configuration window will highlight the selected, as well as hovered windows
 
 A line is drawn from the anchor to the window.
 
+These extended settings will be stored at `imgui.ini.ext`. The current `imgui.ini` path is read from the IO context.
+
 # Usage
 You will have to call `ImGuiExt::UpdatePosition()` before `ImGui::Begin()`. Its return value determines whether the window should have a `NoMove` flag or not.
 
